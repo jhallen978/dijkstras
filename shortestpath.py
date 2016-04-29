@@ -96,7 +96,7 @@ def main(inputFile, startingVertex):
 if __name__ == '__main__':
     
     if len(sys.argv) != 3:
-        print('Usage python readit.py [input file] [starting vertex]')
+        print('Usage python shortestpath.py [input file] [starting vertex]')
         quit()
         
     main(sys.argv[1], sys.argv[2])
